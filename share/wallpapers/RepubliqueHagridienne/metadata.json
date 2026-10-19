@@ -1,0 +1,13 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "",
+                "Name": "République Hagridienne"
+            }
+        ],
+        "Id": "RepubliqueHagridienne",
+        "License": "CC-BY-SA-4.0",
+        "Name": "Nuit hagridienne"
+    }
+}
