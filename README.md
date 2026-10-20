@@ -7,7 +7,7 @@
 
 <p align="center">
   <img alt="KDE Plasma 6" src="https://img.shields.io/badge/KDE%20Plasma-6-1d99f3?logo=kde&logoColor=white">
-  <img alt="Version a1.1" src="https://img.shields.io/badge/version-1.1-00f5ff">
+  <img alt="Version a1.1" src="https://img.shields.io/badge/version-a1.1-00f5ff">
   <img alt="Licence propriétaire" src="https://img.shields.io/badge/licence-propri%C3%A9taire-ff00cc">
 </p>
 
