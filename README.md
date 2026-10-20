@@ -8,7 +8,11 @@
 
 <p align="center">
   <img alt="KDE Plasma 6" src="https://img.shields.io/badge/KDE%20Plasma-6-1d99f3?logo=kde&logoColor=white">
+<<<<<<< HEAD
   <img alt="Version a1.1" src="https://img.shields.io/badge/version-a1.1-00f5ff">
+=======
+  <img alt="Version a1.2" src="https://img.shields.io/badge/version-a1.2-00f5ff">
+>>>>>>> ef17257 (Mise à jour du README)
   <img alt="Licence MIT + CC BY 4.0" src="https://img.shields.io/badge/licence-MIT%2BCCBY4.0-ffd700">
 </p>
 
@@ -137,12 +141,16 @@ Si le thème est appliqué, appliquer d'abord un autre thème global (voir ci-de
 
 ## État de la version
 
-Version 1.1, validée hors session : fichiers (JSON, INI, XML — dont les 733 SVG des icônes, sans alias cassé), rendu des SVG avec un simulateur de `FrameSvg`, QML du splash et de SDDM exécuté dans Qt 6.12 avec des objets SDDM simulés, scripts passés à `shellcheck` et testés dans un `HOME` temporaire. Le thème a été écrit d'après les sources de KDE de mi-octobre 2026.
+Version alpha 1.2, validée hors session : fichiers (JSON, INI, XML — dont les 733 SVG des icônes, sans alias cassé), rendu des SVG avec un simulateur de `FrameSvg`, QML du splash et de SDDM exécuté dans Qt 6.12 avec des objets SDDM simulés, scripts passés à `shellcheck` et testés dans un `HOME` temporaire. Le thème a été écrit d'après les sources de KDE de mi-octobre 2026.
 
 **Pas encore éprouvée dans une vraie session Plasma** : un réglage fin peut être nécessaire au premier essai. Pour signaler un problème, joindre la version de Plasma (`plasmashell --version`) et la sortie de `./install.sh`.
 
 ## Historique
 
+<<<<<<< HEAD
+=======
+- **a1.2** — Changement complet de license ; licence MIT + CC BY 4.0.
+>>>>>>> ef17257 (Mise à jour du README)
 - **a1.1** — pack d'icônes « Hagridienne Néon » intégré (icônes par défaut du thème global) ; licence MIT + CC BY 4.0.
 - **1.0** — première version : couleurs, style Plasma, décorations de fenêtres, écran de démarrage, écran de connexion, fond d'écran, curseur, Konsole, polices ; licence propriétaire.
 
@@ -176,7 +184,11 @@ Pour toute question : [soviet@republiquehagridienne.com](mailto:soviet@republiqu
 
 <p align="center">
   <img alt="KDE Plasma 6" src="https://img.shields.io/badge/KDE%20Plasma-6-1d99f3?logo=kde&logoColor=white">
+<<<<<<< HEAD
   <img alt="Version a1.1" src="https://img.shields.io/badge/version-a1.1-00f5ff">
+=======
+  <img alt="Version a1.2" src="https://img.shields.io/badge/version-a1.2-00f5ff">
+>>>>>>> ef17257 (Mise à jour du README)
   <img alt="MIT + CC BY 4.0 license" src="https://img.shields.io/badge/license-MIT%2BCCBY4.0-ffd700">
 </p>
 
@@ -305,12 +317,20 @@ If the theme is applied, first apply another global theme (see above). The fonts
 
 ## Version status
 
+<<<<<<< HEAD
 Version 1.1, validated outside a session: files (JSON, INI, XML — including the 733 icon SVGs, with no broken aliases), SVG rendering with a `FrameSvg` simulator, the splash and SDDM QML executed in Qt 6.12 with simulated SDDM objects, scripts run through `shellcheck` and tested in a temporary `HOME`. The theme was written from KDE sources as of mid-October 2026.
+=======
+Version alpha 1.2, validated outside a session: files (JSON, INI, XML — including the 733 icon SVGs, with no broken aliases), SVG rendering with a `FrameSvg` simulator, the splash and SDDM QML executed in Qt 6.12 with simulated SDDM objects, scripts run through `shellcheck` and tested in a temporary `HOME`. The theme was written from KDE sources as of mid-October 2026.
+>>>>>>> ef17257 (Mise à jour du README)
 
 **Not yet tried in a real Plasma session**: some fine-tuning may be needed on first run. To report a problem, include your Plasma version (`plasmashell --version`) and the output of `./install.sh`.
 
 ## Changelog
 
+<<<<<<< HEAD
+=======
+- **a1.2** — complete change of the licence ; licence MIT + CC BY 4.0.
+>>>>>>> ef17257 (Mise à jour du README)
 - **a1.1** — Hagridienne Néon icon pack integrated (the global theme's default icons); MIT + CC BY 4.0 license.
 - **1.0** — first release: colors, Plasma style, window decorations, boot screen, login screen, wallpaper, cursor, Konsole, fonts; proprietary license.
 
