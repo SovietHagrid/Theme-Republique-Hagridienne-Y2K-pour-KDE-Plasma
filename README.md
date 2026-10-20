@@ -10,9 +10,7 @@
   <img alt="KDE Plasma 6" src="https://img.shields.io/badge/KDE%20Plasma-6-1d99f3?logo=kde&logoColor=white">
 <<<<<<< HEAD
   <img alt="Version a1.1" src="https://img.shields.io/badge/version-a1.1-00f5ff">
-=======
   <img alt="Version a1.2" src="https://img.shields.io/badge/version-a1.2-00f5ff">
->>>>>>> ef17257 (Mise à jour du README)
   <img alt="Licence MIT + CC BY 4.0" src="https://img.shields.io/badge/licence-MIT%2BCCBY4.0-ffd700">
 </p>
 
