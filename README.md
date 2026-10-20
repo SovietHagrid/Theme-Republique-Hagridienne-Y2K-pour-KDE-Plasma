@@ -9,7 +9,7 @@
 <p align="center">
   <img alt="KDE Plasma 6" src="https://img.shields.io/badge/KDE%20Plasma-6-1d99f3?logo=kde&logoColor=white">
   <img alt="Version a1.1" src="https://img.shields.io/badge/version-a1.1-00f5ff">
-  <img alt="Licence propriétaire" src="https://img.shields.io/badge/licence-propri%C3%A9taire-ff00cc">
+  <img alt="Licence MIT + CC BY 4.0" src="https://img.shields.io/badge/licence-MIT%2BCCBY4.0-ffd700">
 </p>
 
 <p align="center">
@@ -20,7 +20,7 @@
 > Les images de ce dépôt sont des **maquettes** assemblées avec les vrais fichiers du thème (cadres Plasma, décorations de fenêtres, icônes), pas des captures d'écran d'une session Plasma.
 
 > [!IMPORTANT]
-> **Licence propriétaire — tous droits réservés.** La reproduction et la distribution de ce thème sont interdites sans l'accord préalable de Soviet_Hagrid. Détails et exceptions dans [`LICENSE.md`](LICENSE.md).
+> **Licence ouverte — utilisation et reproduction libres.** Ce projet est publié sous licence MIT pour le code et CC BY 4.0 pour les assets graphiques. Vous êtes libre de partager et adapter en créditant Soviet_Hagrid. Détails dans [`LICENSE.md`](LICENSE.md).
 
 Thème construit à partir du site de la République Hagridienne : fond nuit `#020818`, cyan `#00f5ff`, rose `#ff00cc`, or `#ffd700`, lime `#00ff88`, traits de 2 px, ombre rose dure décalée (comme les boutons du site), polices **VT323**, **Orbitron** et **Press Start 2P**, et l'étoile ⭐ partout. L'accroche du site — « Bienvenue dans le futur ! » — se retrouve sur l'écran de démarrage et l'écran de connexion.
 
@@ -91,7 +91,7 @@ Si `install.sh` n'est pas exécutable, lancer `bash install.sh --apply`.
 Sans `--apply`, le script copie seulement les fichiers : choisir ensuite *Paramètres système → Apparence et style → Thème global → République Hagridienne*. Se déconnecter puis se reconnecter pour que les polices, le curseur et l'écran de démarrage soient pris en compte partout.
 
 | Option | Effet |
-|---|---|
+|---|---|---|
 | *(aucune)* | Copie les fichiers dans `~/.local/share`, sans rien appliquer. |
 | `--apply` | Applique couleurs, style Plasma, décorations, icônes, polices (VT323 14 pt, titres en Orbitron), écran de démarrage et fond d'écran. |
 | `--star-cursor` | Avec `--apply` : active le curseur ⭐. |
@@ -143,14 +143,20 @@ Version 1.1, validée hors session : fichiers (JSON, INI, XML — dont les 733 S
 
 ## Historique
 
-- **1.1** — pack d'icônes « Hagridienne Néon » intégré (icônes par défaut du thème global) ; licence propriétaire.
-- **1.0** — première version : couleurs, style Plasma, décorations de fenêtres, écran de démarrage, écran de connexion, fond d'écran, curseur, Konsole, polices.
+- **a1.1** — pack d'icônes « Hagridienne Néon » intégré (icônes par défaut du thème global) ; licence MIT + CC BY 4.0.
+- **1.0** — première version : couleurs, style Plasma, décorations de fenêtres, écran de démarrage, écran de connexion, fond d'écran, curseur, Konsole, polices ; licence propriétaire.
 
 ## Licence
 
-© 2026 Soviet_Hagrid — **tous droits réservés**. La reproduction et la distribution de ce thème, du pack d'icônes « Hagridienne Néon » et des scripts sont interdites sans l'accord préalable de Soviet_Hagrid. L'installation et l'usage privé d'un exemplaire reçu de l'auteur ou avec son accord restent permis. Texte complet : [`LICENSE.md`](LICENSE.md).
+© 2026 Soviet_Hagrid
 
-Pour une demande d'autorisation, contacter Soviet_Hagrid via [soviet@republiquehagridienne.com](mailto:soviet@republiquehagridienne.com?subject=Demande%20d'autorisation%20de%20license%20de%20RSH%20Plasma).
+Ce projet est publié sous deux licences complémentaires :
+- **Code et configuration** (scripts, QML, fichiers .ini, .xml) : **MIT License**
+- **Assets graphiques** (icônes, décorations, fonds d'écran, maquettes) : **CC BY 4.0**
+
+Vous êtes libre de partager et modifier ce projet en créditant Soviet_Hagrid. Texte complet : [`LICENSE.md`](LICENSE.md).
+
+Pour toute question : [soviet@republiquehagridienne.com](mailto:soviet@republiquehagridienne.com?subject=Question%20sur%20la%20licence%20RSH%20Plasma).
 
 ## Crédits
 
@@ -171,7 +177,7 @@ Pour une demande d'autorisation, contacter Soviet_Hagrid via [soviet@republiqueh
 <p align="center">
   <img alt="KDE Plasma 6" src="https://img.shields.io/badge/KDE%20Plasma-6-1d99f3?logo=kde&logoColor=white">
   <img alt="Version a1.1" src="https://img.shields.io/badge/version-a1.1-00f5ff">
-  <img alt="Proprietary license" src="https://img.shields.io/badge/license-proprietary-ff00cc">
+  <img alt="MIT + CC BY 4.0 license" src="https://img.shields.io/badge/license-MIT%2BCCBY4.0-ffd700">
 </p>
 
 <p align="center">
@@ -182,7 +188,7 @@ Pour une demande d'autorisation, contacter Soviet_Hagrid via [soviet@republiqueh
 > The images in this repository are **mockups** assembled from the real theme files (Plasma frames, window decorations, icons), not screenshots of a Plasma session.
 
 > [!IMPORTANT]
-> **Proprietary license — all rights reserved.** Reproduction and distribution of this theme are prohibited without the prior consent of Soviet_Hagrid. Details and exceptions in [`LICENSE.md`](LICENSE.md).
+> **Open license — free to use and share.** This project is released under MIT License for code and CC BY 4.0 for graphic assets. You are free to share and adapt with attribution to Soviet_Hagrid. Details in [`LICENSE.md`](LICENSE.md).
 
 Theme built from the République Hagridienne website: night background `#020818`, cyan `#00f5ff`, pink `#ff00cc`, gold `#ffd700`, lime `#00ff88`, 2 px strokes, hard offset pink shadow (like the site's buttons), fonts **VT323**, **Orbitron** and **Press Start 2P**, and the star ⭐ everywhere. The site's tagline — "Welcome to the future!" — appears on the boot screen and the login screen.
 
@@ -253,7 +259,7 @@ If `install.sh` is not executable, run `bash install.sh --apply`.
 Without `--apply`, the script only copies the files: then choose *System Settings → Appearance and Style → Global Theme → République Hagridienne*. Log out and back in so that fonts, cursor and boot screen take effect everywhere.
 
 | Option | Effect |
-|---|---|
+|---|---|---|
 | *(none)* | Copies the files into `~/.local/share`, without applying anything. |
 | `--apply` | Applies colors, Plasma style, decorations, icons, fonts (VT323 14 pt, titles in Orbitron), boot screen and wallpaper. |
 | `--star-cursor` | With `--apply`: enables the ⭐ cursor. |
@@ -305,17 +311,23 @@ Version 1.1, validated outside a session: files (JSON, INI, XML — including th
 
 ## Changelog
 
-- **1.1** — Hagridienne Néon icon pack integrated (the global theme's default icons); proprietary license.
-- **1.0** — first release: colors, Plasma style, window decorations, boot screen, login screen, wallpaper, cursor, Konsole, fonts.
+- **a1.1** — Hagridienne Néon icon pack integrated (the global theme's default icons); MIT + CC BY 4.0 license.
+- **1.0** — first release: colors, Plasma style, window decorations, boot screen, login screen, wallpaper, cursor, Konsole, fonts; proprietary license.
 
 ## License
 
-© 2026 Soviet_Hagrid — **all rights reserved**. Reproduction and distribution of this theme, the Hagridienne Néon icon pack and the scripts are prohibited without the prior consent of Soviet_Hagrid. Installing and privately using a copy received from the author or with their consent remains permitted. Full text: [`LICENSE.md`](LICENSE.md).
+© 2026 Soviet_Hagrid
 
-To request permission, contact Soviet_Hagrid at [soviet@republiquehagridienne.com](mailto:soviet@republiquehagridienne.com?subject=Permission%20request%20for%20the%20RSH%20Plasma%20theme%20license).
+This project is released under two complementary licenses:
+- **Code and configuration** (scripts, QML, .ini, .xml files): **MIT License**
+- **Graphic assets** (icons, decorations, wallpapers, mockups): **CC BY 4.0**
+
+You are free to share and adapt this project with attribution to Soviet_Hagrid. Full text: [`LICENSE.md`](LICENSE.md).
+
+For any questions: [soviet@republiquehagridienne.com](mailto:soviet@republiquehagridienne.com?subject=Question%20about%20the%20RSH%20Plasma%20license).
 
 ## Credits
 
-- Fonts **VT323**, **Orbitron** and **Press Start 2P**, under the [SIL OFL 1.1 license](https://openfontlicense.org/) (texts in `share/fonts/republique-hagridienne/`): © The VT323 Project Authors, © The Orbitron Project Authors, © The Press Start 2P Project Authors.
+- Fonts **VT323**, **Orbitron** and **Press Start 2P**, under [SIL OFL 1.1 license](https://openfontlicense.org/) (texts in `share/fonts/republique-hagridienne/`): © The VT323 Project Authors, © The Orbitron Project Authors, © The Press Start 2P Project Authors.
 - **Breeze**, **KDE Plasma** and **SDDM** are not included and belong to their authors. KDE and Plasma are trademarks of KDE e.V.; this project is independent and is not affiliated with KDE.
 - Third-party trademarks, names and logos stylized in the application icons (Firefox, Steam, Discord, etc.) remain the property of their respective owners.
