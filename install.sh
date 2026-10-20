@@ -9,6 +9,9 @@
 #    ./install.sh --sddm           installe aussi l'écran de connexion (sudo), SANS l'activer
 #    ./install.sh --sddm-enable    ... et l'active (à faire seulement après l'avoir testé !)
 # =============================================================================
+#  © 2026 Soviet_Hagrid — Tous droits réservés. Reproduction et distribution interdites
+#  sans l'accord de Soviet_Hagrid (voir LICENSE.md).
+# =============================================================================
 set -euo pipefail
 
 ID="com.republiquehagridienne.zephyr"
@@ -19,7 +22,7 @@ APPLY=0; STAR=0; SDDM=0; SDDM_ENABLE=0
 
 say()  { printf '\033[1;36m▸\033[0m %s\n' "$*"; }
 warn() { printf '\033[1;33m!\033[0m %s\n' "$*" >&2; }
-usage(){ sed -n '2,12p' "$0" | sed 's/^# \{0,1\}//'; }
+usage(){ sed -n '2,11p' "$0" | sed 's/^# \{0,1\}//'; }
 
 for a in "$@"; do
   case "$a" in
@@ -54,10 +57,14 @@ put "$SRC/plasma/desktoptheme/republique-hagridienne" "$DATA/plasma/desktoptheme
 put "$SRC/aurorae/themes/RepubliqueHagridienne"      "$DATA/aurorae/themes"
 put "$SRC/wallpapers/RepubliqueHagridienne"          "$DATA/wallpapers"
 put "$SRC/icons/EtoileHagridienne"                   "$DATA/icons"
+put "$SRC/icons/hagridienne-neon"                     "$DATA/icons"
 mkdir -p "$DATA/color-schemes" "$DATA/konsole"
 cp -f "$SRC/color-schemes/RepubliqueHagridienne.colors"     "$DATA/color-schemes/"
 cp -f "$SRC/konsole/RepubliqueHagridienne.colorscheme"      "$DATA/konsole/"
 cp -f "$SRC/konsole/RepubliqueHagridienne.profile"          "$DATA/konsole/"
+
+say "Pack d'icônes « Hagridienne Néon » installé"
+command -v gtk-update-icon-cache >/dev/null 2>&1 && gtk-update-icon-cache -q -t -f "$DATA/icons/hagridienne-neon" >/dev/null 2>&1 || true
 
 # --- 2. polices (VT323, Orbitron, Press Start 2P — licence OFL) -------------------------------
 say "Installation des polices"

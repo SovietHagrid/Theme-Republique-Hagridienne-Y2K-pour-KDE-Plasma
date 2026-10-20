@@ -4,7 +4,7 @@
         "Authors": [
             {
                 "Email": "",
-                "Name": "République Hagridienne"
+                "Name": "Soviet_Hagrid"
             }
         ],
         "Category": "Plasma 6 Window Decorations",
@@ -15,8 +15,8 @@
         "Name": "République Hagridienne",
         "Description": "Décorations de fenêtres néon inspirées du site de la République Hagridienne",
         "Id": "RepubliqueHagridienne",
-        "License": "CC-BY-SA-4.0",
-        "Version": "1.0",
+        "License": "Proprietary",
+        "Version": "1.1",
         "X-KDE-PluginInfo-blur": false,
         "X-KPackage-Dependencies": []
     }

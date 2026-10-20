@@ -1,7 +1,9 @@
 /*
     Écran de connexion SDDM « République Hagridienne »
     QML pur (QtQuick uniquement) : aucune dépendance à un style de contrôles.
-    SPDX-License-Identifier: CC-BY-SA-4.0
+    SPDX-FileCopyrightText: 2026 Soviet_Hagrid
+    SPDX-License-Identifier: LicenseRef-SovietHagrid-Proprietary
+    Tous droits réservés — reproduction et distribution interdites sans l'accord de Soviet_Hagrid (voir LICENSE.md).
 */
 import QtQuick 2.15
 

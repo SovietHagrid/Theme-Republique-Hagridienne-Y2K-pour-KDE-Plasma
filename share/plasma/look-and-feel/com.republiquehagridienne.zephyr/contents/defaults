@@ -13,7 +13,7 @@ menuFont=VT323,14,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 activeFont=Orbitron,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1
 
 [kdeglobals][Icons]
-Theme=breeze-dark
+Theme=hagridienne-neon
 
 [plasmarc][Theme]
 name=republique-hagridienne
