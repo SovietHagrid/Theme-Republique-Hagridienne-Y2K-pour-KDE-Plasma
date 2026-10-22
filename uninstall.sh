@@ -1,11 +1,4 @@
 #!/usr/bin/env bash
-# Désinstalle le thème « République Hagridienne » (fichiers copiés par install.sh).
-#   ./uninstall.sh            retire les fichiers de ~/.local/share
-#   ./uninstall.sh --sddm     retire aussi l'écran de connexion SDDM (sudo)
-# Remarque : si le thème est actuellement appliqué, réapplique d'abord un autre thème global, par ex. :
-#   plasma-apply-lookandfeel -a org.kde.breezedark
-# © 2026 Soviet_Hagrid — Tous droits réservés. Reproduction et distribution interdites
-# sans l'accord de Soviet_Hagrid (voir LICENSE.md).
 set -euo pipefail
 DATA="${XDG_DATA_HOME:-$HOME/.local/share}"; : "${DATA:?}"
 say() { printf '\033[1;36m▸\033[0m %s\n' "$*"; }
