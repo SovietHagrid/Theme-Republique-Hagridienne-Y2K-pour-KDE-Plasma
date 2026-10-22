@@ -1,17 +1,4 @@
 #!/usr/bin/env bash
-# =============================================================================
-#  République Hagridienne — thème global KDE Plasma 6
-#  Installation dans ton profil (aucun droit root nécessaire, sauf pour SDDM).
-#
-#    ./install.sh                  copie tout dans ~/.local/share (n'applique rien)
-#    ./install.sh --apply          copie puis applique le thème global
-#    ./install.sh --apply --star-cursor   ... et active le curseur étoile ⭐
-#    ./install.sh --sddm           installe aussi l'écran de connexion (sudo), SANS l'activer
-#    ./install.sh --sddm-enable    ... et l'active (à faire seulement après l'avoir testé !)
-# =============================================================================
-#  © 2026 Soviet_Hagrid — Tous droits réservés. Reproduction et distribution interdites
-#  sans l'accord de Soviet_Hagrid (voir LICENSE.md).
-# =============================================================================
 set -euo pipefail
 
 ID="com.republiquehagridienne.zephyr"
