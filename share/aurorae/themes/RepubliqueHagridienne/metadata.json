@@ -1,0 +1,23 @@
+{
+    "KPackageStructure": "aurorae",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "",
+                "Name": "Soviet_Hagrid"
+            }
+        ],
+        "Category": "Plasma 6 Window Decorations",
+        "ServiceTypes": [
+            "aurorae"
+        ],
+        "EnabledByDefault": true,
+        "Name": "République Hagridienne",
+        "Description": "Décorations de fenêtres néon inspirées du site de la République Hagridienne",
+        "Id": "RepubliqueHagridienne",
+        "License": "Proprietary",
+        "Version": "1.1",
+        "X-KDE-PluginInfo-blur": false,
+        "X-KPackage-Dependencies": []
+    }
+}

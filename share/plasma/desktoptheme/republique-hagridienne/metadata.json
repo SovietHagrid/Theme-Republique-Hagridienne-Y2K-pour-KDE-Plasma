@@ -1,0 +1,19 @@
+{
+  "KPlugin": {
+    "Authors": [
+      {
+        "Email": "",
+        "Name": "Soviet_Hagrid"
+      }
+    ],
+    "Category": "",
+    "Description": "Thème Plasma néon cyan/rose inspiré du site de la République Hagridienne",
+    "EnabledByDefault": true,
+    "Id": "republique-hagridienne",
+    "License": "Proprietary",
+    "Name": "République Hagridienne",
+    "Version": "1.1",
+    "Website": "https://republiquehagridienne.com"
+  },
+  "X-Plasma-API": "5.0"
+}

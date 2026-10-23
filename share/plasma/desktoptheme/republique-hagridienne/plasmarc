@@ -1,0 +1,8 @@
+[Wallpaper]
+defaultWallpaperTheme=RepubliqueHagridienne
+defaultFileSuffix=.jpg
+defaultWidth=1920
+defaultHeight=1080
+
+[AdaptiveTransparency]
+enabled=true
