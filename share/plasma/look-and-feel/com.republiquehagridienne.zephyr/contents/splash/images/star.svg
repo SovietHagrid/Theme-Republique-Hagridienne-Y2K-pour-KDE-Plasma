@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
-<defs><filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="9"/></filter></defs>
-<polygon points="120.00,28.00 143.51,91.64 211.30,94.33 158.04,136.36 176.43,201.67 120.00,164.00 63.57,201.67 81.96,136.36 28.70,94.33 96.49,91.64" fill="#00f5ff" opacity="0.55" filter="url(#glow)"/>
-<polygon points="134.00,42.00 157.51,105.64 225.30,108.33 172.04,150.36 190.43,215.67 134.00,178.00 77.57,215.67 95.96,150.36 42.70,108.33 110.49,105.64" fill="#ff00cc"/>
-<polygon points="120.00,28.00 143.51,91.64 211.30,94.33 158.04,136.36 176.43,201.67 120.00,164.00 63.57,201.67 81.96,136.36 28.70,94.33 96.49,91.64" fill="#ffd700" stroke="#00f5ff" stroke-width="7" stroke-linejoin="miter"/>
-</svg>
